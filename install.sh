@@ -1,10 +1,6 @@
 #!/bin/bash
 
 #script to install pixray and update the packages for an NVIDIA 30 series card(s)
-git clone --recursive https://github.com/pixray/pixray 
-
-cd pixray/ 
-
 pip install -r requirements.txt
 pip install basicsr 
 
